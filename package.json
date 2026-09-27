@@ -1,0 +1,31 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "description": "TypeScript AI Agent implementation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "tui": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@unblessed/node": "^1.0.0-alpha.23",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "openai": "^6.27.0"
+  }
+}
